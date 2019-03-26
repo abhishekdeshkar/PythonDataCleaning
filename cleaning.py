@@ -15,7 +15,10 @@ x4 = data['x4'].isnull().sum()
 x5 = data['x5'].isnull().sum()
 
 #Type of x3 column. int64
-print(data['x3'].dtype)
+#print(data['x3'].dtype)
 
 #If there are any null values in data frame.
-print(data.isnull().values.any())
+#print(data.isnull().values.any())
+
+#Mean
+print(data['x1'].mean)
